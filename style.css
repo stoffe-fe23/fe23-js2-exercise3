@@ -1,0 +1,44 @@
+#dog-container {
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: rgb(220, 220, 255);
+}
+
+form,
+#dog-form {
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+}
+
+select,
+#dog-form input {
+    margin-right: 2rem;
+}
+
+
+#dog-output {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+#dog-output figure {
+    max-width: 350px;
+    flex: 1 1 350px;
+}
+
+#dog-output figure img {
+    width: 100%;
+}
+
+#dog-breed,
+#dog-breed option {
+    text-transform: capitalize;
+}
+
+#dog-results {
+    text-align: center;
+    font-weight: bold;
+}
